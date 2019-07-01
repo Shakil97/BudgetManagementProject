@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdesing"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SING IN HERE"
+        android:padding="10dp"
+        android:layout_margin="16dp"
+        android:background="#FFC50C0C"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:id="@+id/email_SingIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:layout_margin="16dp"
+        android:background="@drawable/editdesing"
+        android:padding="10dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#fffff"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/Password_SingIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/editdesing"
+        android:padding="10dp"
+        android:layout_margin="16dp"
+        android:textColorHint="#fff"
+        android:textColor="#fffff"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btn_singin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SING IN"
+        android:background="@drawable/editdesing"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="OR"
+       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+       android:gravity="center"
+       android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/btn_singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SING up"
+        android:background="@drawable/editdesing"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</LinearLayout>
